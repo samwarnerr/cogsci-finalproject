@@ -26,10 +26,9 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  padding: 1.5em 1em;
+  padding: .75em 1.5em;
   overflow: hidden;
 }
-
 
 .quiz-box {
   max-width: 500px;
@@ -39,7 +38,7 @@ html, body {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  padding: 1em 0;
+  padding: .5em 0;
   box-sizing: border-box;
 }
 
