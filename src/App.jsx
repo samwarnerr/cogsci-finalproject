@@ -17,7 +17,7 @@ function App() {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [font, setFont] = useState("inter");
   const [quizStarted, setQuizStarted] = useState(false);
-  const [fontCodename, setFontCodename] = useState("national");
+  const [fontCodename, setFontCodename] = useState("NATNL");
 
   const quizData = [
     {
@@ -49,9 +49,9 @@ function App() {
 
   useEffect(() => {
     const fontMap = {
-      national: "inter",
-      sunny: "merriweather",
-      train: "raleway",
+      NATNL: "inter",
+      SNY: "merriweather",
+      TRN: "raleway",
     };
   
     const id = new URLSearchParams(window.location.search).get("id");
@@ -63,7 +63,7 @@ function App() {
       setFontCodename(id);
     } else {
       setFont("inter"); // fallback
-      setFontCodename("national");
+      setFontCodename("NATNL");
     }
   }, []);
   
