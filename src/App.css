@@ -15,7 +15,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   background-color: #121212;
   color: #ffffff;
   font-size: 16px;
@@ -27,7 +28,6 @@ html, body {
   align-items: flex-start;
   height: 100vh;
   padding: .75em 1.5em;
-  overflow: hidden;
 }
 
 .quiz-box {
