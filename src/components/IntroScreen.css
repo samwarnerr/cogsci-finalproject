@@ -1,14 +1,19 @@
 .intro-container {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    padding: 3em 2em;
-    background-color: #1e1e1e;
-    border-radius: 16px;
-    text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    color: #ffffff;
-  }
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em 2em;
+  background-color: #1e1e1e;
+  border-radius: 0;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  box-sizing: border-box;
+  margin-top: 5em;
+}
   
   .intro-container p {
     font-size: 1.1em;

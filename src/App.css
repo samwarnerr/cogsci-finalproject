@@ -24,9 +24,9 @@ html, body {
 .quiz-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
-  padding: 1.5em;
+  padding: 1.5em 1em;
   overflow: hidden;
 }
 
@@ -38,16 +38,16 @@ html, body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  padding: 1em 1em;
+  overflow-y: auto;
+  padding: 1em 0;
   box-sizing: border-box;
 }
 
 .question-number {
   color: #888;
   font-size: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
+  margin-top: 0.5em;
 }
 
 .question {
